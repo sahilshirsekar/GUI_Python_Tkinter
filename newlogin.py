@@ -14,7 +14,7 @@ def signin():
 
     if username == "admin" and password=="Sahil":
         screen = Toplevel(root)
-        screen.title("App")
+        screen.title("DashBoard")
         screen.geometry('925x500+300+200')
         screen.configure(bg="#fff")
         screen.resizable(False, False)
